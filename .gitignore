@@ -1,0 +1,23 @@
+# Uploaded PDF documents
+app/uploads/
+
+# ChromaDB data
+**/chroma_db/
+**/chroma_db_*/
+**/chroma/
+
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs and test cache
+*.log
+.pytest_cache/
