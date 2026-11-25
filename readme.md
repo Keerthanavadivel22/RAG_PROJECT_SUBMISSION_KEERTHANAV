@@ -9,28 +9,7 @@ The application allows users to upload PDF and TXT documents and ask questions b
 Instead of manually searching through lengthy documents, users can interact with their files through a chat interface. The application retrieves relevant text chunks from the uploaded documents and generates answers using a locally running Large Language Model.
 
 One of the main objectives of this project is to build a RAG application without depending on external LLM or embedding APIs.
-PDF_RAG_Project/
-│
-├── app/
-│   ├── main.py
-│   ├── stream_app.py
-│   ├── routes/
-│   ├── services/
-│   ├── models/
-│   └── database/
-│
-├── tests/
-│   ├── conftest.py
-│   ├── test_auth.py
-│   ├── test_document_service.py
-│   └── test_upload.py
-│
-├── evaluation/
-│   └── PDF_RAG_Project_RAGAS_Evaluation.ipynb
-│
-├── .env
-├── requirements.txt
-└── README.md
+
 
 ### Key Features
 
@@ -607,3 +586,10 @@ Through this project, I implemented user authentication, document processing, em
 The project also helped me understand how Retrieval-Augmented Generation works in practice, from converting documents into embeddings to retrieving relevant information and generating answers using an LLM.
 
 Overall, the application demonstrates how locally running AI models can be integrated with backend technologies to build a practical document-based question-answering system.
+
+
+
+
+
+
+
